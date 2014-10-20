@@ -1,6 +1,6 @@
 {
   "name": "array-methods",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Array methods made generic for use with iterators in JavaScript",
   "main": "index.js",
   "repository": {
