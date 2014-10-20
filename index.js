@@ -1,0 +1,7 @@
+exports.every = require('./every')
+exports.filter = require('./filter')
+exports.forEach = require('./forEach')
+exports.map = require('./map')
+exports.reduce = require('./reduce')
+exports.reduceRight = require('./reduceRight')
+exports.some = require('./some')

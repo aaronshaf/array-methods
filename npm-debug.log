@@ -1,0 +1,109 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/Users/ashafovaloff/.nvm/v0.10.32/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@2.0.0
+3 info using node@v0.10.32
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add spec="." args=[".",null]
+7 verbose parsed spec { raw: '.',
+7 verbose parsed spec   scope: null,
+7 verbose parsed spec   name: null,
+7 verbose parsed spec   rawSpec: '.',
+7 verbose parsed spec   spec: '/Users/ashafovaloff/Projects/aaronshaf/array-methods',
+7 verbose parsed spec   type: 'local' }
+8 verbose cache add local package /Users/ashafovaloff/Projects/aaronshaf/array-methods
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/ashafovaloff/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/Users/ashafovaloff/.npm/array-methods/1.0.0/package.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball /Users/ashafovaloff/.npm/array-methods/1.0.0/package.tgz
+13 verbose folder .
+14 info prepublish array-methods@1.0.0
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. /Users/ashafovaloff/.npm/1f1177db-tar.lock
+17 silly lockFile 94869212--array-methods-1-0-0-package-tgz tar:///Users/ashafovaloff/.npm/array-methods/1.0.0/package.tgz
+18 verbose lock tar:///Users/ashafovaloff/.npm/array-methods/1.0.0/package.tgz /Users/ashafovaloff/.npm/94869212--array-methods-1-0-0-package-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 94869212--array-methods-1-0-0-package-tgz tar:///Users/ashafovaloff/.npm/array-methods/1.0.0/package.tgz
+22 silly lockFile 94869212--array-methods-1-0-0-package-tgz tar:///Users/ashafovaloff/.npm/array-methods/1.0.0/package.tgz
+23 silly lockFile 9f558512--npm-array-methods-1-0-0-package /Users/ashafovaloff/.npm/array-methods/1.0.0/package
+24 verbose lock /Users/ashafovaloff/.npm/array-methods/1.0.0/package /Users/ashafovaloff/.npm/9f558512--npm-array-methods-1-0-0-package.lock
+25 silly lockFile 9f558512--npm-array-methods-1-0-0-package /Users/ashafovaloff/.npm/array-methods/1.0.0/package
+26 silly lockFile 9f558512--npm-array-methods-1-0-0-package /Users/ashafovaloff/.npm/array-methods/1.0.0/package
+27 silly lockFile 3a52ce78- .
+28 silly lockFile 3a52ce78- .
+29 silly publish { name: 'array-methods',
+29 silly publish   version: '1.0.0',
+29 silly publish   description: 'Array methods made generic for use with iterators in JavaScript',
+29 silly publish   main: 'index.js',
+29 silly publish   repository:
+29 silly publish    { type: 'git',
+29 silly publish      url: 'https://github.com/aaronshaf/array-methods.git' },
+29 silly publish   author: { name: 'Aaron Shafovaloff', email: 'aaronshaf@gmail.com' },
+29 silly publish   license: 'MIT',
+29 silly publish   bugs: { url: 'https://github.com/aaronshaf/array-methods/issues' },
+29 silly publish   homepage: 'https://github.com/aaronshaf/array-methods',
+29 silly publish   readme: 'Array methods made generic for use with iterators in JavaScript\n',
+29 silly publish   readmeFilename: 'README.md',
+29 silly publish   gitHead: 'fc3d82b94a2196fa7006375749e854d8df2c0efc',
+29 silly publish   _id: 'array-methods@1.0.0',
+29 silly publish   scripts: {},
+29 silly publish   _shasum: 'cb7408c2fe22c5b2fe956a91e3dcbd8e73da5474',
+29 silly publish   _from: '.' }
+30 verbose mapToRegistry name array-methods
+31 verbose mapToRegistry uri https://registry.npmjs.org/array-methods
+32 verbose publish registryBase https://registry.npmjs.org/
+33 verbose request on initialization, where is /array-methods
+34 verbose request after pass 1, where is /array-methods
+35 verbose request url raw /array-methods
+36 verbose request resolving registry [ 'https://registry.npmjs.org/', './array-methods' ]
+37 verbose request after pass 2, where is https://registry.npmjs.org/array-methods
+38 verbose request sending authorization for write operation
+39 info attempt registry request try #1 at 10:46:52
+40 verbose request id f7eba70c7f05c26d
+41 http request PUT https://registry.npmjs.org/array-methods
+42 http 403 https://registry.npmjs.org/array-methods
+43 verbose headers { date: 'Mon, 20 Oct 2014 16:46:52 GMT',
+43 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+43 verbose headers   'content-type': 'application/json',
+43 verbose headers   'cache-control': 'max-age=60',
+43 verbose headers   'content-length': '2168',
+43 verbose headers   'accept-ranges': 'bytes',
+43 verbose headers   via: '1.1 varnish',
+43 verbose headers   'x-served-by': 'cache-ord1726-ORD',
+43 verbose headers   'x-cache': 'MISS',
+43 verbose headers   'x-cache-hits': '0',
+43 verbose headers   'x-timer': 'S1413823612.754380,VS0,VE244',
+43 verbose headers   'keep-alive': 'timeout=10, max=50',
+43 verbose headers   connection: 'Keep-Alive' }
+44 error publish Failed PUT 403
+45 verbose stack Error: forbidden cannot modify pre-existing version: 1.0.0
+45 verbose stack old={"name":"array-methods","version":"1.0.0","description":"Array methods made generic for use with iterators in JavaScript","main":"index.js","repository":{"type":"git","url":"https://github.com/aaronshaf/array-methods.git"},"author":{"name":"Aaron Shafovaloff","email":"aaronshaf@gmail.com"},"license":"MIT","bugs":{"url":"https://github.com/aaronshaf/array-methods/issues"},"homepage":"https://github.com/aaronshaf/array-methods","gitHead":"fc3d82b94a2196fa7006375749e854d8df2c0efc","_id":"array-methods@1.0.0","scripts":{},"_shasum":"9334f6c08869769ce400d7dbab5525c6aa89877b","_from":".","_npmVersion":"2.0.0","_npmUser":{"name":"aaronshaf","email":"aaronshaf@gmail.com"},"maintainers":[{"name":"aaronshaf","email":"aaronshaf@gmail.com"}],"dist":{"shasum":"9334f6c08869769ce400d7dbab5525c6aa89877b","tarball":"http://registry.npmjs.org/array-methods/-/array-methods-1.0.0.tgz"}}
+45 verbose stack new={"name":"array-methods","version":"1.0.0","description":"Array methods made generic for use with iterators in JavaScript","main":"index.js","repository":{"type":"git","url":"https://github.com/aaronshaf/array-methods.git"},"author":{"name":"Aaron Shafovaloff","email":"aaronshaf@gmail.com"},"license":"MIT","bugs":{"url":"https://github.com/aaronshaf/array-methods/issues"},"homepage":"https://github.com/aaronshaf/array-methods","readme":"Array methods made generic for use with iterators in JavaScript\u000a","readmeFilename":"README.md","gitHead":"fc3d82b94a2196fa7006375749e854d8df2c0efc","_id":"array-methods@1.0.0","scripts":{},"_shasum":"cb7408c2fe22c5b2fe956a91e3dcbd8e73da5474","_from":".","_npmVersion":"2.0.0","_npmUser":{"name":"aaronshaf","email":"aaronshaf@gmail.com"},"maintainers":[{"name":"aaronshaf","email":"aaronshaf@gmail.com"}],"dist":{"shasum":"cb7408c2fe22c5b2fe956a91e3dcbd8e73da5474","tarball":"http://registry.npmjs.org/array-methods/-/array-methods-1.0.0.tgz"}}: array-methods
+45 verbose stack     at RegClient.<anonymous> (/Users/ashafovaloff/.nvm/v0.10.32/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:261:14)
+45 verbose stack     at Request._callback (/Users/ashafovaloff/.nvm/v0.10.32/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:198:65)
+45 verbose stack     at Request.self.callback (/Users/ashafovaloff/.nvm/v0.10.32/lib/node_modules/npm/node_modules/request/request.js:236:22)
+45 verbose stack     at Request.emit (events.js:98:17)
+45 verbose stack     at Request.<anonymous> (/Users/ashafovaloff/.nvm/v0.10.32/lib/node_modules/npm/node_modules/request/request.js:1142:14)
+45 verbose stack     at Request.emit (events.js:117:20)
+45 verbose stack     at IncomingMessage.<anonymous> (/Users/ashafovaloff/.nvm/v0.10.32/lib/node_modules/npm/node_modules/request/request.js:1096:12)
+45 verbose stack     at IncomingMessage.emit (events.js:117:20)
+45 verbose stack     at _stream_readable.js:943:16
+45 verbose stack     at process._tickCallback (node.js:419:13)
+46 verbose statusCode 403
+47 verbose pkgid array-methods
+48 verbose cwd /Users/ashafovaloff/Projects/aaronshaf/array-methods
+49 error Darwin 14.0.0
+50 error argv "node" "/Users/ashafovaloff/.nvm/v0.10.32/bin/npm" "publish"
+51 error node v0.10.32
+52 error npm  v2.0.0
+53 error code E403
+54 error forbidden cannot modify pre-existing version: 1.0.0
+54 error old={"name":"array-methods","version":"1.0.0","description":"Array methods made generic for use with iterators in JavaScript","main":"index.js","repository":{"type":"git","url":"https://github.com/aaronshaf/array-methods.git"},"author":{"name":"Aaron Shafovaloff","email":"aaronshaf@gmail.com"},"license":"MIT","bugs":{"url":"https://github.com/aaronshaf/array-methods/issues"},"homepage":"https://github.com/aaronshaf/array-methods","gitHead":"fc3d82b94a2196fa7006375749e854d8df2c0efc","_id":"array-methods@1.0.0","scripts":{},"_shasum":"9334f6c08869769ce400d7dbab5525c6aa89877b","_from":".","_npmVersion":"2.0.0","_npmUser":{"name":"aaronshaf","email":"aaronshaf@gmail.com"},"maintainers":[{"name":"aaronshaf","email":"aaronshaf@gmail.com"}],"dist":{"shasum":"9334f6c08869769ce400d7dbab5525c6aa89877b","tarball":"http://registry.npmjs.org/array-methods/-/array-methods-1.0.0.tgz"}}
+54 error new={"name":"array-methods","version":"1.0.0","description":"Array methods made generic for use with iterators in JavaScript","main":"index.js","repository":{"type":"git","url":"https://github.com/aaronshaf/array-methods.git"},"author":{"name":"Aaron Shafovaloff","email":"aaronshaf@gmail.com"},"license":"MIT","bugs":{"url":"https://github.com/aaronshaf/array-methods/issues"},"homepage":"https://github.com/aaronshaf/array-methods","readme":"Array methods made generic for use with iterators in JavaScript\u000a","readmeFilename":"README.md","gitHead":"fc3d82b94a2196fa7006375749e854d8df2c0efc","_id":"array-methods@1.0.0","scripts":{},"_shasum":"cb7408c2fe22c5b2fe956a91e3dcbd8e73da5474","_from":".","_npmVersion":"2.0.0","_npmUser":{"name":"aaronshaf","email":"aaronshaf@gmail.com"},"maintainers":[{"name":"aaronshaf","email":"aaronshaf@gmail.com"}],"dist":{"shasum":"cb7408c2fe22c5b2fe956a91e3dcbd8e73da5474","tarball":"http://registry.npmjs.org/array-methods/-/array-methods-1.0.0.tgz"}}: array-methods
+55 error If you need help, you may report this error at:
+55 error     <http://github.com/npm/npm/issues>
+56 verbose exit [ 1, true ]
